@@ -1,9 +1,9 @@
-def speak_to_grandma(speaking)
-  if speaking != speaking.upcase
+def speak_to_grandma(phrase)
+  if phrase != speaking.upcase
      "HUH?! SPEAK UP SONNY!"
-  elsif speaking == speaking.upcase
+  elsif phrase == speaking.upcase
      "NO, NOT SINCE 1938!"
-  else speaking == "I LOVE YOU GRANDMA!"
+  else phrase == "I LOVE YOU GRANDMA!"
       "I LOVE YOU TOO PUMPKIN!"
   end
 end
