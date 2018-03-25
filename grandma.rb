@@ -1,8 +1,8 @@
-def speak_to_grandma(argument)
-  if argument == argument.upcase
-     puts "Grandmas phrase"
-  elsif condition
-     puts "Grandmas 2nd phrase"
+def speak_to_grandma(speaking)
+  if speaking != speaking.upcase
+     puts "HUH?! SPEAK UP SONNY!"
+  elsif speaking == speaking.upcase
+     puts "NO, NOT SINCE 1938!"
   else
      puts "Grandmas third phrase"
   end
